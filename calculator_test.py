@@ -7,7 +7,7 @@ class TestCalculator(unittest.TestCase):
         """Initializes the calculator object."""
         pass
 
-    def test_addition(self):#Adding two numbers.
+    def test_addition(self):#Adds two numbers.
         calc = Calculator()
         self.assertEqual(calc.add(2, 3), 5)
 
